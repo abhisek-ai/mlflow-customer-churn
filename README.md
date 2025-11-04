@@ -68,7 +68,6 @@ ction/Staging/Archived):
 
 ## Technologies
 
-- Python 3.12
 - MLflow
 - Scikit-learn
 - Pandas, NumPy
