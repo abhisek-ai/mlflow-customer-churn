@@ -1,10 +1,10 @@
 # MLflow Customer Churn Prediction
 
-## 📊 Project Overview
+## Project Overview
 
 This project uses **MLflow** to track machine learning experiments for customer churn prediction. It demonstrates experiment tracking, model registry, and deployment workflows.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -27,7 +27,7 @@ python mlflow_customer_churn.py
 mlflow ui --port=5001
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mlflow-customer-churn/
@@ -40,7 +40,7 @@ mlflow-customer-churn/
 └── README.md                          # This file
 ```
 
-## 🎯 Features
+## Features
 
 - **Synthetic Dataset**: 5000 customer records with churn labels
 - **Models Tested**: Random Forest, Gradient Boosting
@@ -48,30 +48,25 @@ mlflow-customer-churn/
 - **Model Registry**: Version control and production deployment
 - **Metrics Tracked**: AUC, Accuracy
 
-## 📈 Results
+## Results
 
 - **Best Model**: Gradient Boosting Classifier
 - **AUC Score**: ~0.89
 - **Production Ready**: Model deployed to MLflow Model Registry
 
-## 📸 Screenshots
+## Screenshots
 
 ### MLflow Experiments Tracking
 All experiment runs with parameters and metrics tracked in MLflow:
-
-![Experiments Tracking](screenshots/experiments.png)
+<img width="1920" height="1080" alt="Screenshot 2025-11-03 at 10 11 09 PM (2)-1" src="https://github.com/user-attachments/assets/e0250d55-6788-453d-9d00-c4f6ef6fb248" />
 
 ### Model Registry
-Model versioning and stage transitions (Production/Staging/Archived):
+Model versioning and stage transitions (Produ<img width="1920" height="1080" alt="Screenshot 2025-11-03 at 10 11 40 PM (2)-1" src="https://github.com/user-attachments/assets/01da174d-dcc4-45c2-b83b-04e2de743953" />
+ction/Staging/Archived):
 
-![Model Registry](screenshots/model_registry.png)
+<img width="1920" height="1080" alt="Screenshot 2025-11-03 at 10 05 27 PM (2)-1" src="https://github.com/user-attachments/assets/a3d46839-885a-4d88-b3c6-06072e1f8942" />
 
-### Model Performance Comparison
-Comparison of different model performances and hyperparameters:
-
-![Model Comparison](screenshots/model_comparison.png)
-
-## 🛠️ Technologies
+## Technologies
 
 - Python 3.12
 - MLflow
@@ -79,17 +74,17 @@ Comparison of different model performances and hyperparameters:
 - Pandas, NumPy
 - Matplotlib, Seaborn
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Feature Importance**: Monthly charges and tenure are the strongest predictors of customer churn
 - **Model Performance**: Gradient Boosting outperformed Random Forest by ~3.5% in AUC
 - **Hyperparameter Impact**: Learning rate and number of estimators had the most significant impact on model performance
 
-## 📝 License
+## License
 
 MIT License
 
-## 👤 Author
+## Author
 
-**Abhisek**
+**Abhisek Mallick**
 - GitHub: [@abhisek-ai](https://github.com/abhisek-ai)
