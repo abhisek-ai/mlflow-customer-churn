@@ -10,7 +10,7 @@ This project uses **MLflow** to track machine learning experiments for customer 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mlflow-customer-churn.git
+git clone https://github.com/abhisek-ai/mlflow-customer-churn.git
 cd mlflow-customer-churn
 
 # Install dependencies
@@ -31,8 +31,12 @@ mlflow ui --port=5001
 
 ```
 mlflow-customer-churn/
-├── starter.py                          # Main Python script
-├── mlruns/                            # MLflow tracking data 
+├── mlflow_customer_churn.py          # Main Python script
+├── screenshots/                       # MLflow UI screenshots
+│   ├── experiments.png
+│   ├── model_registry.png
+│   └── model_comparison.png
+├── mlruns/                           # MLflow tracking data
 └── README.md                          # This file
 ```
 
@@ -50,6 +54,23 @@ mlflow-customer-churn/
 - **AUC Score**: ~0.89
 - **Production Ready**: Model deployed to MLflow Model Registry
 
+## 📸 Screenshots
+
+### MLflow Experiments Tracking
+All experiment runs with parameters and metrics tracked in MLflow:
+
+![Experiments Tracking](screenshots/experiments.png)
+
+### Model Registry
+Model versioning and stage transitions (Production/Staging/Archived):
+
+![Model Registry](screenshots/model_registry.png)
+
+### Model Performance Comparison
+Comparison of different model performances and hyperparameters:
+
+![Model Comparison](screenshots/model_comparison.png)
+
 ## 🛠️ Technologies
 
 - Python 3.12
@@ -58,11 +79,17 @@ mlflow-customer-churn/
 - Pandas, NumPy
 - Matplotlib, Seaborn
 
+## 🔍 Key Insights
+
+- **Feature Importance**: Monthly charges and tenure are the strongest predictors of customer churn
+- **Model Performance**: Gradient Boosting outperformed Random Forest by ~3.5% in AUC
+- **Hyperparameter Impact**: Learning rate and number of estimators had the most significant impact on model performance
+
 ## 📝 License
 
 MIT License
 
 ## 👤 Author
 
-**Abhisek Mallick**
+**Abhisek**
 - GitHub: [@abhisek-ai](https://github.com/abhisek-ai)
